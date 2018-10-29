@@ -1,14 +1,7 @@
 # prepare environment
-pkg install proot
-termux-chroot
-pkg install clang
-pkg install wget
-pkg install git
-pkg install emacs
-pkg install make
-pkg install tcl
-pkg install tcl-dev
-pkg install python
+apt edit-sources
+pkg install proot clang wget git emacs make tcl tcl-dev python
+termux-chroot 
 wget https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
 mkdir lib
