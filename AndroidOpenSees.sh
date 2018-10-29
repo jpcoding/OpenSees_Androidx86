@@ -4,6 +4,7 @@ pkg install proot clang wget git emacs make tcl tcl-dev python
 termux-chroot 
 wget https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
+pkg install gcc-7
 mkdir lib
 mkdir bin
 
