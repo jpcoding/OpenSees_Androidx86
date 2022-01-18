@@ -1,4 +1,5 @@
-# littleTricks
+# OpenSees_Androidx86
+
 some bash scripts by myself
 
 AndroidOpenSees is for compiling OpenSees on Android Termux
